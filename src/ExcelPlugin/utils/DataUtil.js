@@ -143,7 +143,7 @@ function getCell(v, cellRef, ws) {
     } else if (v instanceof Date) {
         cell.t = "n";
         cell.z = XLSX.SSF._table[14];
-        cell.v = dateToNumber(cell.v);
+        cell.v = dateToNumber(v);
     } else if (typeof v === "object") {
         cell.v = v.value;
         cell.s = v.style;
