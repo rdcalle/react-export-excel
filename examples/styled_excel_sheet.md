@@ -94,7 +94,7 @@ class App extends Component {
         return (
             <div>
                 <ExcelFile element={<button>Download Data With Styles</button>}>
-                    <ExcelSheet dataSet={multiDataSet} name="Organization"/>
+                    <ExcelSheet dataSet={styledMultiDataSet} name="Organization"/>
                 </ExcelFile>
             </div>
         );
@@ -104,4 +104,4 @@ class App extends Component {
 
 ## Output
 ![Download Button](http://i64.tinypic.com/2mey8na.jpg)
-![Excel File Outpu](http://i63.tinypic.com/2qko404.jpg)
+![Excel File Output](http://i63.tinypic.com/2qko404.jpg)
